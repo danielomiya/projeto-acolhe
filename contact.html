@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Acolhe</title>
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <b class="brand">Acolhe</b>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#centralizador" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ocultar" id="centralizador">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="how-to-help.html">Ajude</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonies.html">Depoimentos</a>
+          </li>
+          <li class="nav-item" style="padding-top: 0;" id="logo">
+            <a href="index.html">
+              <img src="assets/img/logo.png" alt="Logo">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">História</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+  </header>
+
+  <div class="container" style="padding-bottom: 100px;">
+    <article class="content-center">
+      <header>
+        <h2>Contato</h2>
+      </header>
+
+      <p>Você pode entrar em contato conosco pelo formulário abaixo, ou nos encontrar no endereço a seguir, da nossa lojinha.
+      </p>
+
+      <p>Estamos abertos de segunda à sexta das 09:00 às 19:00, e contamos com dezenas de peças artesanais feitas pelos nossos residentes e voluntários.</p>
+      <p>Também aos sábados, a partir das 10:00, para debater sobre os muitos temas LGBTQ+.</p>
+
+      <figure>
+        <img src="assets/img/location.jpg" alt="Mapa da localização" class="img-fluid">
+        <figcaption>Mapa da localização da lojinha do Projeto Acolhe.</figcaption>
+      </figure>
+
+      <section>
+        <hr>
+        <header>
+          <h2>Fale conosco</h2>
+        </header>
+
+        <p>Se você está passando por um momento difícil, precisa de um lar ou gostaria de contribuir conosco, deixe seu contato e retornaremos o mais breve possível!</p>
+
+        <form action="https://script.google.com/macros/s/AKfycbwoCuunRXZEsDNUg2zOgAFNus4SYQXTDQIWfLEMA3NNRhviVMm7/exec" method="post" name="contact-form">
+          <div class="col-md-6 col-sm-9 col-xs-12">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" name="name" id="name" placeholder="Nome" required="required" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Email" required="required" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Celular</label>
+              <input type="tel" name="phone" id="phone" placeholder="Celular" required="required" pattern="^(\+?55 ?)?\(?[0-9]{2}\)? ?9?[0-9]{4}-?[0-9]{4}$" class="form-control">
+            </div>
+
+            <input type="submit" value="Enviar" class="btn btn-primary">
+          </div>
+        </form>
+      </section>
+    </article>
+  </div>
+
+  <footer class="footer-style">
+    <div class="container text-center">
+      <article class="row">
+        <div class="col-md-6">
+          <section class="made">
+            <b>Copyright &copy; 2019.</b>
+            <p>Made with <i class="fa fa-heart red"></i> by:</p>
+
+            <p><a href="mailto:31825540@mackenzista.com.br">Alberto Pantoja</a></p>
+            <p><a href="mailto:31902499@mackenzista.com.br">Daniel Omiya</a></p>
+          </section>
+        </div>
+
+        <div class="col-md-6">
+          <section class="made">
+            <i class="fa fa-language"></i> Not in your language?
+
+            <ul style="list-style-type: none;">
+              <li>
+                <i class="flag-icon flag-icon-gb"></i>
+                <a href="en/index.html">English</a>
+              </li>
+              <li>
+                <i class="flag-icon flag-icon-es"></i>
+                <a href="es/index.html">Español</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <article>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/vendor/jquery/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="assets/js/core.js"></script>
+</body>
+
+</html>
