@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch(e.target.action, {
         body: form,
         method: e.target.method,
+        redirect: 'follow',
       })
       .then(checkStatus)
       .then(parseJSON)
