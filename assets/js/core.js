@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
       method: e.target.method,
       redirect: 'follow',
     })
+      .then(checkStatus)
       .then(parseJSON)
       .then(() => {
         e.target.reset();
