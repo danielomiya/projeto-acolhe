@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         swal({
           icon: 'success',
           title: 'Enviado!',
-          text: 'Em breve entraremos em contato com você! :)'
+          text: 'Em breve entraremos em contato com você! :)',
         });
         if (submitter) submitter.classList.remove('no-click');        
       })
@@ -54,8 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
         swal({
           icon: 'error',
           title: 'Algo deu errado... :(',
-          text: 'Tente novamente mais tarde.'
+          text: 'Tente novamente mais tarde.',
         });
+        if (submitter) submitter.classList.remove('no-click');        
       });
   });
 });
