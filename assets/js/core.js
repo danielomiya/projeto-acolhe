@@ -47,7 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
           title: 'Enviado!',
           text: 'Em breve entraremos em contato com você! :)'
         });
-        if (submitter) submitter.classList.remove('no-click');
+        if (submitter) submitter.classList.remove('no-click');        
+      })
+      .catch(err => {
+        console.error(err);
+        swal({
+          icon: 'error',
+          title: 'Algo deu errado... :(',
+          text: 'Tente novamente mais tarde.'
+        });
       });
   });
 });
